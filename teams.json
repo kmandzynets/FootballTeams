@@ -1,0 +1,37 @@
+[
+	{
+		"coach":"Louis van Gaal",
+		"location":"Greater Manchester",
+		"establishedYear":1878
+	},
+	{
+		"coach":"Mauricio Pochettino",
+		"location":"Tottenham",
+		"establishedYear":1881
+	},
+	{
+		"coach":"Rafael Benitez",
+		"location":"Madrid",
+		"establishedYear":1902
+	},
+	{
+		"coach":"Luis Enrique",
+		"location":"Barcelona",
+		"establishedYear":1899
+	},
+	{
+		"coach":"Slavisa Jokanovic",
+		"location":"Fulham",
+		"establishedYear":1879
+	},
+	{
+		"coach":"Pep Guardiola",
+		"location":"Munich",
+		"establishedYear":1900
+	},
+	{
+		"coach":"Sinisa Mihajlovic",
+		"location":"Milan",
+		"establishedYear":1899
+	}
+]
