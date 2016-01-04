@@ -1,6 +1,6 @@
 package com.lits.FootballTeams;
 
-public class Teams {
+public class Team {
 	
 	private String coach;
 	private String location;

@@ -31,5 +31,10 @@
 	<classpathentry kind="lib" path="D:/Testing/JARS/jackson-core-2.5.4.jar"/>
 	<classpathentry kind="lib" path="D:/Testing/JARS/jackson-databind-2.5.4.jar"/>
 	<classpathentry kind="lib" path="D:/Testing/JARS/org.json-20120521.jar"/>
+	<classpathentry excluding="**" kind="src" output="target/test-classes" path="src/test/resources">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
