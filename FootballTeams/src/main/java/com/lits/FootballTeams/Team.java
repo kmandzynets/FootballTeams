@@ -24,6 +24,7 @@ public class Team {
 	public void setEstablishedYear(int establishedYear) {
 		this.establishedYear = establishedYear;
 	}
-	
-
+	public String toString() {
+		return String.format("%-16s\t%-8s\t%d", coach, location, establishedYear);
+	}
 }
