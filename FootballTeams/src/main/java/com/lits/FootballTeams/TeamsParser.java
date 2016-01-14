@@ -22,6 +22,14 @@ public class TeamsParser {
 		TypeFactory typeFactory = TypeFactory.defaultInstance();
 		List<Team> teams = objectMapper.readValue(input, typeFactory.constructCollectionType(
 						ArrayList.class, Team.class));
+		System.out.println("List of football teams:\n" + "--------------------------------------------");
+		for (Team team : teams) {
+			System.out.println(team);
+		}
+		Collections.sort(teams, new TeamComparator());
+		System.out.println("\nSorted list:\n" + "--------------------------------------------");
+		for (Team team : teams) {
+			System.out.println(team);
+		}
 	}
-
 }
